@@ -9,12 +9,9 @@
         <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
           <div class="md:pr-4 relative flex items-center justify-start sm:h-10">
             <SocialMediaLink image-src="/github.png" label="GitHub" />
-            <a href="#" class="flex ml-8 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">
-              <img class="w-6 mr-1" src="/linkedin.png" alt="">
-              LinkedIn
-            </a>
-            <a href="#" class=" ml-8 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Twitter</a>
-            <a href="#" class=" ml-8 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Angel</a>
+            <SocialMediaLink image-src="/linkedIn2.png" label="LinkedIn" class="ml-8" />
+            <SocialMediaLink image-src="/twitter2.png" label="Twitter" class="ml-8" />
+            <SocialMediaLink image-src="/angelList.png" label="AngelList" width="4" class="ml-8" />
           </div>
         </div>
 

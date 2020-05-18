@@ -1,6 +1,6 @@
 <template>
   <a :href="href" class="flex font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">
-    <img class="w-6 mr-1" :src="imageSrc" alt="">
+    <img :class="`w-${width} mr-1`" :src="imageSrc" alt="">
     {{ label }}
   </a>
 </template>
@@ -20,6 +20,10 @@ export default {
     href: {
       type: String,
       default: '#',
+    },
+    width: {
+      type: String,
+      default: '6',
     },
   },
 };
