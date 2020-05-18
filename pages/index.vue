@@ -8,10 +8,10 @@
 
         <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
           <div class="md:pr-4 relative flex items-center justify-start sm:h-10">
-            <SocialMediaLink image-src="/github.png" label="GitHub" />
-            <SocialMediaLink image-src="/linkedIn2.png" label="LinkedIn" class="ml-8" />
-            <SocialMediaLink image-src="/twitter2.png" label="Twitter" class="ml-8" />
-            <SocialMediaLink image-src="/angelList.png" label="AngelList" width="4" class="ml-8" />
+            <SocialMediaLink social-media="github" label="GitHub" />
+            <SocialMediaLink social-media="linkedIn" label="LinkedIn" class="ml-8" />
+            <SocialMediaLink social-media="twitter" label="Twitter" class="ml-8" />
+            <SocialMediaLink social-media="angel" label="AngelList" class="ml-8" />
           </div>
         </div>
 
@@ -20,7 +20,7 @@
             <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
               Allison Hamelin
               <br />
-              <span class="text-purple-600">Front End Developer</span>
+              <span class="text-lightpink-600">Front End Developer</span>
             </h2>
             <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               I code and stuff. Nice to see you.<br><br><br><br><br><br>
