@@ -10,10 +10,10 @@
     </div>
     <div class="flex-1 bg-white p-6 flex flex-col justify-between text-center">
       <div class="flex-1">
-        <p class="text-sm leading-5 font-medium text-indigo-600">
-          <a href="#" class="hover:underline">
+        <p class="text-sm leading-5 font-medium text-pink-600">
+          <span>
             {{category}}
-          </a>
+          </span>
         </p>
         <a href="#" class="block">
           <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">
