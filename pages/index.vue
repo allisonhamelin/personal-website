@@ -1,19 +1,22 @@
 <template>
-  <Header />
+  <div>
+    <Header />
+    <Projects />
+  </div>
 </template>
 
 <script>
 import Header from '~/components/Header.vue';
+import Projects from '~/components/Projects';
 
 export default {
-  components: { Header },
+  components: { Projects, Header },
 };
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
+.my-mood {
+  /*background-image: url('~assets/moodScreenshot.png');*/
+  width: 700px;
 }
-*/
 </style>
