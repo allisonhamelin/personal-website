@@ -1,11 +1,13 @@
 <template>
   <a
     :href="href"
+    target="_blank"
+    rel="noopener"
     class="flex font-medium text-gray-500 hover:text-pink-300 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
   >
     <svg
       v-if="socialMedia === 'github'"
-      class="mr-1"
+      class="mr-2"
       width="20"
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -17,7 +19,7 @@
 
     <svg
       v-if="socialMedia === 'linkedIn'"
-      class="mr-1"
+      class="mr-2"
       width="20"
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -29,7 +31,7 @@
 
     <svg
       v-if="socialMedia === 'twitter'"
-      class="mr-1"
+      class="mr-2"
       width="20"
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -41,6 +43,7 @@
 
     <svg
       v-if="socialMedia === 'angel'"
+      class="mr-1"
       style="enable-background:new 0 0 56.7 56.7;"
       viewBox="0 0 56.7 56.7"
       width="25"
