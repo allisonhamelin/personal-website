@@ -10,8 +10,7 @@
           <div class="md:pr-4 relative flex items-center justify-start sm:h-10">
             <SocialMediaLink social-media="github" label="GitHub" href="https://github.com/allisonhamelin" />
             <SocialMediaLink social-media="linkedIn" label="LinkedIn" class="ml-8" href="https://www.linkedin.com/in/allisonhamelin/" />
-            <!--            Uncomment if my Twitter ever becomes remotely interesting-->
-            <!--            <SocialMediaLink social-media="twitter" label="Twitter" class="ml-8" href="https://twitter.com/AllisonHamelin" />-->
+            <SocialMediaLink social-media="twitter" label="Twitter" class="ml-8" href="https://twitter.com/AllisonHamelin" />
             <SocialMediaLink social-media="angel" label="AngelList" class="ml-8" href="https://angel.co/u/allisonhamelin" />
           </div>
         </div>
