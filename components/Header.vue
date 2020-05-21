@@ -17,15 +17,13 @@
 
         <div class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
           <div class="sm:text-center lg:text-left">
-            <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-              Allison Hamelin
-              <br>
-              <span class="text-lightpink-600">Front End Developer</span>
+            <h2 class="tracking-tight leading-10 text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
+              <span class="font-semibold text-6xl">Allison Hamelin</span>
+              <span class="block font-medium text-5xl text-lightpink-600">Front End Developer</span>
             </h2>
-            <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              I code and stuff. Nice to see you!<br><br><br><br><br><br>
+            <p class="leading-8 pt-3 text-lg text-gray-600 sm:mt-5 sm:max-w-xl sm:mx-auto md:mt-5 lg:mx-0">
+              I studied computer science at the University of British Columbia. While I was there I also fooled around with UBC A Capella and tried some tasty food with UBC Food Society. Nowadays I am building websites and continuing to learn (while drinking a ton of coffee). I'm interested in VR and curious about design. On my spare time I'm trying out new food spots, doing Zumba, taking long walks on the Vancouver Seawall, or cracking open a book.
             </p>
-            <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start" />
           </div>
         </div>
       </div>

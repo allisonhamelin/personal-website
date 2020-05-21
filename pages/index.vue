@@ -2,23 +2,19 @@
   <div>
     <Header />
     <Projects />
-    <!--    <Award />-->
+    <Footer />
   </div>
 </template>
 
 <script>
-import Header from '~/components/Header.vue';
+import Header from '~/components/Header';
 import Projects from '~/components/Projects';
-// import Award from '~/components/Award';
+import Footer from '~/components/Footer';
 
 export default {
-  components: { Projects, Header },
+  components: { Projects, Header, Footer },
 };
 </script>
 
 <style>
-.my-mood {
-  /*background-image: url('~assets/moodScreenshot.png');*/
-  width: 700px;
-}
 </style>
