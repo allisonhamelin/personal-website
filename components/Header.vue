@@ -1,17 +1,18 @@
 <template>
   <div class="relative bg-white overflow-hidden">
     <div class="max-w-screen-xl mx-auto">
-      <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+      <div class="relative pb-16 z-10 bg-white lg:max-w-2xl lg:w-full">
         <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none">
           <polygon points="50,0 100,0 50,100 0,100" />
         </svg>
 
         <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
-          <div class="md:pr-4 relative flex items-center justify-start sm:h-10">
+          <div class="relative flex items-center justify-start sm:h-10 md:pr-4">
             <SocialMediaLink social-media="github" label="GitHub" href="https://github.com/allisonhamelin" />
-            <SocialMediaLink social-media="linkedIn" label="LinkedIn" class="ml-8" href="https://www.linkedin.com/in/allisonhamelin/" />
-            <SocialMediaLink social-media="twitter" label="Twitter" class="ml-8" href="https://twitter.com/AllisonHamelin" />
-            <SocialMediaLink social-media="angel" label="AngelList" class="ml-8" href="https://angel.co/u/allisonhamelin" />
+            <SocialMediaLink social-media="linkedIn" label="LinkedIn" class="ml-6 sm:ml-8" href="https://www.linkedin.com/in/allisonhamelin/" />
+            <SocialMediaLink social-media="twitter" label="Twitter" class="ml-6 sm:ml-8" href="https://twitter.com/AllisonHamelin" />
+            <SocialMediaLink social-media="angel" label="AngelList" class="ml-6 sm:ml-8" href="https://angel.co/u/allisonhamelin" />
+            <img class="absolute h-12 w-12 right-0 sm:mt-2 object-cover lg:hidden sm:h-16 sm:w-16 rounded-full shadow-md" src="/avatar.jpg" alt="" />
           </div>
         </div>
 
@@ -21,15 +22,15 @@
               <span class="font-semibold text-6xl">Allison Hamelin</span>
               <span class="block font-medium text-5xl text-lightpink-600">Front End Developer</span>
             </h2>
-            <p class="leading-8 pt-3 text-lg text-gray-600 sm:mt-5 sm:max-w-xl sm:mx-auto md:mt-5 lg:mx-0">
-              I studied computer science at the University of British Columbia. While I was there I also fooled around with UBC A Capella and tried some tasty food with UBC Food Society. Nowadays I am building websites and continuing to learn (while drinking a ton of coffee). I'm interested in VR and curious about design. On my spare time I'm trying out new food spots, doing Zumba, taking long walks on the Vancouver Seawall, or cracking open a book.
+            <p :style="{maxWidth: '94%'}" class="leading-8 text-lg text-gray-600 mt-5 sm:mt-5  sm:mx-auto lg:mx-0">
+              I studied computer science at the University of British Columbia. While I was there I also fooled around a bunch with UBC A Capella. Nowadays I am building websites and continuing to learn (while drinking a ton of coffee). I'm interested in VR and curious about design. On my spare time I'm trying out new food spots, doing Zumba, taking long walks on the Vancouver Seawall, or cracking open a book. I am aiming to acquire solid foundations in core skills and gain experience with modern tools and frameworks such as React and Vue.js, possibly in the education or mental health tech industries.
             </p>
           </div>
         </div>
       </div>
     </div>
-    <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-      <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="/me.jpg" alt="">
+    <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <img class="h-56 w-full object-cover object-center sm:h-72 md:h-96 lg:w-full lg:h-full" src="/me.jpg" alt="">
     </div>
   </div>
 </template>
