@@ -15,7 +15,7 @@
       <div class="mt-12 grid gap-8 lg:gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
         <Project :award="true" category="Hackathon" title="Mood Setter">
           <div slot="media" class="flex-shrink-0">
-            <img class="h-64 w-full object-cover" src="/moodScreenshot.png" alt="">
+            <img class="h-64 w-full object-cover" src="https://firebasestorage.googleapis.com/v0/b/allison-hamelin.appspot.com/o/public%2Fproject1.png?alt=media&token=e6ebcaed-9f01-477e-a67e-8e85f16a6d88" alt="">
           </div>
           <span slot="description">
             Mood Setter is a connected Google Home and web application created in the cmd-f all-female hackathon. It is designed to make it easier for those struggling with mental health to reach out. It allows users to set their mood via a simple command to their Google home, which then displays on the web interface. In a future feature, users will be able to share this page with loved ones and anyone who can help.
@@ -24,15 +24,15 @@
         </Project>
         <Project category="Learning and Exploration" title="&quot;Bring Christine to Work&quot; Day">
           <div slot="media">
-            <video class="h-64 w-full object-cover" poster="/christine.jpg" controls>
-              <source src="/demo.mp4" type="video/mp4">
+            <video class="h-64 w-full object-cover" poster="https://firebasestorage.googleapis.com/v0/b/allison-hamelin.appspot.com/o/public%2Fproject2.jpg?alt=media&token=116e40c0-a480-4a38-9113-dcf653920006" controls>
+              <source src="https://firebasestorage.googleapis.com/v0/b/allison-hamelin.appspot.com/o/public%2Fdemo.mp4?alt=media&token=e3b3178a-e8a4-40ce-9c39-70c6fa813c26" type="video/mp4">
             </video>
           </div>
           <span slot="description">Having a passion for VR and AR, I decided to learn the basics of Amazon Sumerian. I created a simple augmented reality mobile application allowing the user to move 'Christine', one of the Sumerian assistants, around my office according to her instructions. I shared my experience and what I'd learned about Sumerian with my coworkers at a lunch and learn.</span>
         </Project>
         <Project category="Academic" title="ChainXY E-Commerce Portal">
           <div slot="media" class="flex-shrink-0">
-            <img class="h-64 w-full object-cover object-left-top" src="/ecommerce.png" alt="">
+            <img class="h-64 w-full object-cover object-left-top" src="https://firebasestorage.googleapis.com/v0/b/allison-hamelin.appspot.com/o/public%2Fproject3.png?alt=media&token=ecfdfb71-a319-4132-a127-707b8e57c3d6" alt="">
           </div>
           <span slot="description">A real-world project which my team and I completed for ChainXY in a hands-on university course. We built an e-commerce portal that would allow clients to pick and choose data products that were currently only available via a subscription. This was my first taste of front end development and my first time using React. My team and I were proud to receive excellent feedback from ChainXY as well as the other companies attending the presentation.</span>
         </Project>

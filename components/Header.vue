@@ -35,7 +35,7 @@
       </div>
     </div>
     <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-      <img class="h-56 w-full object-cover object-center sm:h-72 md:h-96 lg:w-full lg:h-full" src="/me.jpg" alt="">
+      <img class="h-56 w-full object-cover object-center sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://firebasestorage.googleapis.com/v0/b/allison-hamelin.appspot.com/o/public%2Fme.jpg?alt=media&token=d2bf97f3-4dc6-4cbb-a467-8a5d689a5a13" alt="">
     </div>
   </div>
 </template>
