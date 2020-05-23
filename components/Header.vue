@@ -6,17 +6,17 @@
           <polygon points="50,0 100,0 50,100 0,100" />
         </svg>
 
-        <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+        <div class="relative pt-6 px-6 lg:px-8">
           <div class="relative flex items-center justify-start sm:h-10 md:pr-4">
             <SocialMediaLink social-media="github" label="GitHub" href="https://github.com/allisonhamelin" />
             <SocialMediaLink social-media="linkedIn" label="LinkedIn" class="ml-6 sm:ml-8" href="https://www.linkedin.com/in/allisonhamelin/" />
             <SocialMediaLink social-media="twitter" label="Twitter" class="ml-6 sm:ml-8" href="https://twitter.com/AllisonHamelin" />
             <SocialMediaLink social-media="angel" label="AngelList" class="ml-6 sm:ml-8" href="https://angel.co/u/allisonhamelin" />
-            <img class="absolute h-12 w-12 right-0 sm:mt-2 object-cover lg:hidden sm:h-16 sm:w-16 rounded-full shadow-md" src="/avatar.jpg" alt="" />
+            <img class="absolute h-12 w-12 right-0 top-0 object-cover lg:hidden sm:h-16 sm:w-16 rounded-full shadow-md" src="/avatar.jpg" alt="" />
           </div>
         </div>
 
-        <div class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+        <div class="mt-10 mx-auto max-w-screen-xl px-8 sm:px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
           <div class="sm:text-center lg:text-left">
             <h2 class="tracking-tight leading-10 text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
               <span class="font-semibold text-6xl">Allison Hamelin</span>

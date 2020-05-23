@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white">
-    <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+    <div class="max-w-screen-xl mx-auto py-12 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
       <div class="flex justify-center md:order-2">
         <a href="https://github.com/allisonhamelin" target="_blank" rel="noreferrer noopener" class="text-gray-400 hover:text-lightpink-600">
           <span class="sr-only">GitHub</span>
