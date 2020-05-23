@@ -2,7 +2,7 @@
   <a
     :href="href"
     target="_blank"
-    rel="noopener"
+    rel="noreferrer noopener"
     class="flex items-start font-medium text-gray-500 hover:text-lightpink-600 focus:outline-none focus:text-lightpink-600 active:text-lightpink-600 transition duration-150 ease-in-out"
   >
     <svg

@@ -16,7 +16,7 @@
         <Project :award="true" image-src="/moodScreenshot.png" category="Hackathon" title="Mood Setter">
           <span>
             Mood Setter is a connected Google Home and web application created in the cmd-f all-female hackathon. It is designed to make it easier for those struggling with mental health to reach out. It allows users to set their mood via a simple command to their Google home, which then displays on the web interface. In a future feature, users will be able to share this page with loved ones and anyone who can help.
-            <a class="inline-block mt-3 text-lightpink-600 hover:underline" href="https://devpost.com/software/mood-setter" target="_blank" rel="noopener">Click here to see the project on Devpost!</a>
+            <a class="inline-block mt-3 text-lightpink-600 hover:underline" href="https://devpost.com/software/mood-setter" target="_blank" rel="noreferrer noopener">Click here to see the project on Devpost!</a>
           </span>
         </Project>
         <Project

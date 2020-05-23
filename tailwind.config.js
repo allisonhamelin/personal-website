@@ -53,6 +53,9 @@ module.exports = {
           900: '#141113',
         },
       },
+      boxShadow: {
+        outline: '0 0 0 3px #E5D7EA',
+      },
     },
   },
   variants: {},

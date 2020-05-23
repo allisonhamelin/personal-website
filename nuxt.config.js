@@ -25,7 +25,7 @@ export default {
       { property: 'twitter:image', content: 'https://firebasestorage.googleapis.com/v0/b/allison-hamelin.appspot.com/o/public%2FmetaImage.png?alt=media&token=faa217e3-b93f-4f51-b6ad-42be60b41aaf' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800&display=swap',
