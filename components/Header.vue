@@ -6,7 +6,7 @@
           <polygon points="50,0 100,0 50,100 0,100" />
         </svg>
 
-        <div class="relative pt-6 px-6 lg:px-8">
+        <div class="relative pt-6 pl-8 pr-6 lg:px-8">
           <div class="relative flex items-center justify-start sm:h-10 md:pr-4">
             <SocialMediaLink social-media="github" label="GitHub" :href="githubURL" />
             <SocialMediaLink social-media="linkedIn" label="LinkedIn" class="ml-6 sm:ml-8" :href="linkedInURL" />

@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-50">
-    <div class="max-w-screen-xl mx-auto py-12 px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+    <div class="max-w-screen-xl mx-auto flex flex-col items-center py-12 px-6 lg:py-16 lg:px-8 lg:flex-row lg:justify-between">
       <h2 class="text-3xl leading-9 font-semibold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
         Want to know more?
       </h2>
