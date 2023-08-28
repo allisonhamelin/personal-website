@@ -25,7 +25,7 @@
               <span class="block font-medium text-5xl text-lightpink-600">Front End Developer</span>
             </h2>
             <p :style="{maxWidth: '94%'}" class="leading-8 text-lg text-gray-600 my-5 sm:mx-auto lg:mx-0">
-              I studied computer science at the University of British Columbia. While I was there I also fooled around a bunch with UBC A Capella. Nowadays I am building websites and continuing to learn (while drinking a ton of coffee). I'm interested in VR and curious about design. On my spare time I'm trying out new food spots, doing Zumba, taking long walks on the Vancouver Seawall, or cracking open a book. I am aiming to acquire solid foundations in core skills and gain experience with modern tools and frameworks such as React and Vue.js, possibly in the education or mental health tech industries.
+              As a front-end developer with over 4 years of experience, I have a passion for developing intuitive, pleasant user experiences. I have a strong interest in design and enjoy collaborating with designers to improve a project. I thrive when given the opportunity to take ownership of my work and contribute creatively. My attention to detail and focus on clean, clear, and maintainable code enables me to deliver refined work.
             </p>
             <div class="inline-flex rounded-md shadow">
               <a :href="resumeURL" download target="_blank" rel="noreferrer noopener" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-lightpink-600 hover:bg-lightpink-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
